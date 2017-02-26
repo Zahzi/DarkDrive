@@ -29,7 +29,12 @@ div#kix-ruler {
     background: $button !important;
 }
 
-div#docs-primary-toolbars{ /* toolbar icons */
+.jfk-bubble.docs-toolbar-more-bubble, .docs-toolbar-more-toolbar{ /* more dropdown */
+    background: lighten(invert($bg), 2%);
+    border-color: $bg-accent!important;
+  }
+
+div#docs-primary-toolbars, .docs-toolbar-more-toolbar{ /* toolbar icons */
     -webkit-filter: invert(0.9) !important;
     filter: invert(0.9) !important;   
 }
@@ -50,6 +55,11 @@ div#docs-star{ /* star icon */
 .jfk-activityIndicator-circle-transition{
     -webkit-filter: invert(1) !important;
     filter: invert(1) !important;   
+}
+
+#docs-chat{ /*   toolbar chat button   */
+    -webkit-filter: invert(0.9) !important;
+    filter: invert(0.9) !important;
 }
 
 /* invert toolbar and sep */

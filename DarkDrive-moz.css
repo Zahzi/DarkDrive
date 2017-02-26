@@ -32,7 +32,13 @@
     background: #222 !important;
   }
 
-  div#docs-primary-toolbars {
+  .jfk-bubble.docs-toolbar-more-bubble, .docs-toolbar-more-toolbar {
+    /* more dropdown */
+    background: #f4f4f4;
+    border-color: #333 !important;
+  }
+
+  div#docs-primary-toolbars, .docs-toolbar-more-toolbar {
     /* toolbar icons */
     -webkit-filter: invert(0.9) !important;
     filter: invert(0.9) !important;
@@ -58,6 +64,12 @@
   .jfk-activityIndicator-circle-transition {
     -webkit-filter: invert(1) !important;
     filter: invert(1) !important;
+  }
+
+  #docs-chat {
+    /*   toolbar chat button   */
+    -webkit-filter: invert(0.9) !important;
+    filter: invert(0.9) !important;
   }
 
   /* invert toolbar and sep */
