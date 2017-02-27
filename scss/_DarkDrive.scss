@@ -1,18 +1,21 @@
 @import "_variables";
+
 /* background */
 body, #docs-editor {
-    background: $bg!important;
+    background: $bg !important;
 }
 
 /* ruler */
 div.kix-ruler-background {
-    background: $bg!important;
+    background: $bg !important;
 }
+
 div.kix-ruler-background-inner {
     background: $bg-accent !important;
 }
+
 div#kix-ruler {
-    border-bottom: 1px solid $bg-darker !important;  
+    border-bottom: 1px solid $bg-darker !important;
 }
 
 /* top */
@@ -29,14 +32,21 @@ div#kix-ruler {
     background: $button !important;
 }
 
-.jfk-bubble.docs-toolbar-more-bubble, .docs-toolbar-more-toolbar{ /* more dropdown */
+.jfk-bubble.docs-toolbar-more-bubble, .docs-toolbar-more-toolbar { /* more dropdown */
     background: lighten(invert($bg), 2%);
-    border-color: $bg-accent!important;
-  }
+    border-color: $bg-accent !important;
+}
 
-div#docs-primary-toolbars, .docs-toolbar-more-toolbar{ /* toolbar icons */
+div#docs-primary-toolbars, .docs-toolbar-more-toolbar { /* toolbar icons */
     -webkit-filter: invert(0.9) !important;
-    filter: invert(0.9) !important;   
+    filter: invert(0.9) !important;
+}
+
+div#docs-access-level-indicator {
+    -webkit-filter: invert(1) !important;
+    filter: invert(1) !important;
+    background: darken($button, 8.5%);
+    border: 1px solid $bg-accent !important;
 }
 
 /* title */
@@ -44,31 +54,33 @@ div#docs-primary-toolbars, .docs-toolbar-more-toolbar{ /* toolbar icons */
     background-color: $bg-lighter !important;
     color: $text !important;
 }
+
 .docs-title-untitled {
     display: none !important;
 }
 
-div#docs-star{ /* star icon */
+div#docs-star { /* star icon */
     -webkit-filter: invert(0.3) grayscale(1) !important;
     filter: invert(0.3) grayscale(1) !important;
 }
-.jfk-activityIndicator-circle-transition{
+
+.jfk-activityIndicator-circle-transition {
     -webkit-filter: invert(1) !important;
-    filter: invert(1) !important;   
+    filter: invert(1) !important;
 }
 
-#docs-chat{ /*   toolbar chat button   */
+#docs-chat { /*   toolbar chat button   */
     -webkit-filter: invert(0.9) !important;
     filter: invert(0.9) !important;
 }
 
 /* invert toolbar and sep */
-div.docs-icon.goog-inline-block.goog-control-icon, div#docs-toolbar-mode-switcher-separator{ /* add to drive icon */
+div.docs-icon.goog-inline-block.goog-control-icon, div#docs-toolbar-mode-switcher-separator { /* add to drive icon */
     -webkit-filter: invert(0.7) grayscale(1) !important;
     filter: invert(0.7) grayscale(1) !important;
 }
 
-#docs-docos-commentsbutton, div.goog-inline-block.jfk-button.jfk-button-action.docs-titlebar-button{
+#docs-docos-commentsbutton, div.goog-inline-block.jfk-button.jfk-button-action.docs-titlebar-button {
     color: $text;
     background: $button;
     border-color: $bg-accent;
