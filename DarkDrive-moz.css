@@ -10,55 +10,27 @@
   }
 
   div.kix-ruler-background-inner {
-    background: #333 !important;
+    background: #333333 !important;
   }
 
   div#kix-ruler {
-    border-bottom: 1px solid #000 !important;
+    border-bottom: 1px solid #000000 !important;
   }
 
   /* top */
-  #docs-chrome {
+  div#docs-chrome {
     background: #212121 !important;
-    color: #BBB !important;
+    color: #BBBBBB !important;
   }
 
-  /*  toolbar */
-  #docs-toolbar-wrapper {
-    /* bar */
-    border-top: 1px solid #000 !important;
-    border-bottom: 1px solid #000 !important;
-    box-shadow: inset 0 1px rgba(255, 255, 255, 0.15) !important;
-    background: #222 !important;
-  }
-
-  .jfk-bubble.docs-toolbar-more-bubble, .docs-toolbar-more-toolbar {
-    /* more dropdown */
-    background: #f4f4f4;
-    border-color: #333 !important;
-  }
-
-  div#docs-primary-toolbars, .docs-toolbar-more-toolbar {
-    /* toolbar icons */
-    -webkit-filter: invert(0.9) !important;
-    filter: invert(0.9) !important;
-  }
-
-  div#docs-access-level-indicator {
-    -webkit-filter: invert(1) !important;
-    filter: invert(1) !important;
-    background: #0c0c0c;
-    border: 1px solid #333 !important;
-  }
-
-  /* title */
-  .docs-title-input {
+  input.docs-title-input {
     /* title box */
     background-color: #212121 !important;
-    color: #BBB !important;
+    color: #BBBBBB !important;
   }
 
-  .docs-title-untitled {
+  input.docs-title-untitled {
+    /* title box */
     display: none !important;
   }
 
@@ -68,15 +40,68 @@
     filter: invert(0.3) grayscale(1) !important;
   }
 
-  .jfk-activityIndicator-circle-transition {
+  div#docs-folder {
+    -webkit-filter: invert(0.6) grayscale(1) !important;
+    filter: invert(0.6) grayscale(1) !important;
+  }
+
+  div.jfk-activityIndicator-circle-transition {
+    /* activity indicator */
     -webkit-filter: invert(1) !important;
     filter: invert(1) !important;
   }
 
-  #docs-chat {
+  div#docs-chat {
     /*   toolbar chat button   */
     -webkit-filter: invert(0.9) !important;
     filter: invert(0.9) !important;
+  }
+
+  /*  toolbar */
+  div#docs-toolbar-wrapper {
+    /* bar */
+    border-top: 0px solid #424242 !important;
+    border-bottom: 1px solid #424242 !important;
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.15) !important;
+    background: #222 !important;
+  }
+
+  div#docs-equationtoolbar {
+    /* equation toolbar */
+    border-top: 0px solid #424242 !important;
+    border-bottom: 1px solid #424242 !important;
+    background: #212121;
+  }
+
+  div#insert-equation-button {
+    /*insert eqn button */
+    background: #222;
+    border-color: #333333;
+  }
+
+  #docs-equationtoolbar > div.goog-toolbar-menu-button.goog-toolbar-menu-button.goog-inline-block {
+    /* eqn toolbar dropdown icons*/
+    -webkit-filter: invert(0.9) !important;
+    filter: invert(0.9) !important;
+  }
+
+  div.jfk-bubble.docs-toolbar-more-bubble, div.docs-toolbar-more-toolbar {
+    /* more dropdown */
+    background: #f4f4f4;
+    border-color: #333333 !important;
+  }
+
+  div#docs-primary-toolbars, div.docs-toolbar-more-toolbar {
+    /* toolbar icons */
+    -webkit-filter: invert(0.9) !important;
+    filter: invert(0.9) !important;
+  }
+
+  div#docs-access-level-indicator {
+    -webkit-filter: invert(1) !important;
+    filter: invert(1) !important;
+    background: #0c0c0c;
+    border: 1px solid #333333 !important;
   }
 
   /* invert toolbar and sep */
@@ -86,9 +111,9 @@
     filter: invert(0.7) grayscale(1) !important;
   }
 
-  #docs-docos-commentsbutton, div.goog-inline-block.jfk-button.jfk-button-action.docs-titlebar-button {
-    color: #BBB;
+  div#docs-docos-commentsbutton, div.goog-inline-block.jfk-button.jfk-button-action.docs-titlebar-button {
+    color: #BBBBBB;
     background: #222;
-    border-color: #333;
+    border-color: #333333;
   }
 }
