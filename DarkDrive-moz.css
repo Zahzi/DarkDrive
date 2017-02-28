@@ -1,4 +1,4 @@
-@-moz-document url-prefix("https://docs.google.com/document") {
+@-moz-document url-prefix("https://docs.google.com/document/d/") {
   /* background */
   body, #docs-editor {
     background: #101010 !important;
