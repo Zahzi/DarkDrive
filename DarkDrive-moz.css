@@ -164,7 +164,7 @@
   }
 
   /* headers like "my drive" and specifically "backup" because it's different for some reason..*/
-  .h-R-w-d-ff, .a-Kj-D {
+  .h-R-w-d-ff, .a-Kj-D, .w7Ppu {
     color: #BBBBBB !important;
   }
 
@@ -208,6 +208,7 @@
   /* computer folder */
   div.a-u-xb-j.a-Wa-ka > div.l-u-xb.l-u-o {
     filter: invert(0.8) grayscale(1);
+    box-shadow: none !important;
   }
 
   /* sep between more and info on computer tab when selected */
@@ -268,5 +269,19 @@
 
   .a-gd-j.a-s-oe {
     border-color: #101010 !important;
+  }
+
+  /* quick access */
+  .L202Xe {
+    filter: invert(0.9) grayscale(1);
+  }
+
+  .L202Xe {
+    box-shadow: none !important;
+  }
+
+  .a-ok-Ji, .a-ok-Ji-ga {
+    background: #212121 !important;
+    color: #BBBBBB !important;
   }
 }
