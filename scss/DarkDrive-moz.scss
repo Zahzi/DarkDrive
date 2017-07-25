@@ -1,3 +1,6 @@
 @-moz-document url-prefix("https://docs.google.com/document/d/") {
-    @import "_DarkDrive.scss";
+    @import "_docs.scss";
+}
+@-moz-document url-prefix("https://drive.google.com/drive/") {
+    @import "_drive.scss";
 }

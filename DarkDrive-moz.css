@@ -117,3 +117,156 @@
     border-color: #333333;
   }
 }
+@-moz-document url-prefix("https://drive.google.com/drive/") {
+  input {
+    background: #333333 !important;
+    color: #BBBBBB !important;
+  }
+
+  input.gb_Zd {
+    background: none !important;
+  }
+
+  /* 	
+  	top bar
+  */
+  .gb_ud, .gb_qd, .gb_Td {
+    background: #212121 !important;
+    color: #BBBBBB !important;
+  }
+
+  .a-D-B-x {
+    background: #212121 !important;
+    box-shadow: none !important;
+  }
+
+  /* search bar accent on use */
+  .gb_Ee {
+    background: #333333;
+  }
+
+  .gb_Ie {
+    background: #333333 !important;
+  }
+
+  .a-nb-Va-d-Gk-M {
+    background: #333333 !important;
+  }
+
+  /* icons*/
+  .gb_Ie > svg, .a-nb-Va-d-Gk-M > svg, .a-w-d-aa-zd > svg, svg.a-nEbBXb-c, div.a-d-c > svg.a-s-fa-Ha-pa, svg.gb_1d, div.gb_ee > svg.gb_0d {
+    fill: #FFFFFF !important;
+  }
+
+  /* placeholder text*/
+  .gb_Fe::-webkit-input-placeholder {
+    color: #BBBBBB !important;
+  }
+
+  /* headers like "my drive" and specifically "backup" because it's different for some reason..*/
+  .h-R-w-d-ff, .a-Kj-D {
+    color: #BBBBBB !important;
+  }
+
+  /*
+  left bar
+  */
+  .a-da-Mf-B, div.a-da-Mf-B-ji-j {
+    background: #212121 !important;
+  }
+
+  /* text on menu items */
+  .a-s-T-j {
+    color: #BBBBBB !important;
+  }
+
+  /* side menu icons */
+  .a-s-fa-Ha-pa {
+    fill: #989898 !important;
+  }
+
+  /* free space text and upgrade storage */
+  .xd-cr-lv, span.xd-A-r {
+    color: #989898 !important;
+  }
+
+  /* background */
+  .a-s-tb-Pe-Q {
+    background: #101010;
+  }
+
+  /* headers such as "bin" */
+  .a-Kj-D {
+    color: #BBBBBB !important;
+  }
+
+  /* "folders" on computers tab and maybe other stuff... */
+  .a-ok-Ji-ga {
+    color: #BBBBBB !important;
+  }
+
+  /* computer folder */
+  div.a-u-xb-j.a-Wa-ka > div.l-u-xb.l-u-o {
+    filter: invert(0.8) grayscale(1);
+  }
+
+  /* sep between more and info on computer tab when selected */
+  .a-d-vc {
+    border-color: #333333 !important;
+  }
+
+  /* some bar at the bottom of starred afaik */
+  .a-S-dc.a-S-dc-Vf {
+    background-color: #101010 !important;
+  }
+
+  /* read the selector name... */
+  #empty-view-content-starred {
+    color: #BBBBBB !important;
+  }
+
+  /* backup page text*/
+  .a-Ul-YrItnb-D {
+    color: #BBBBBB !important;
+  }
+
+  .a-Ul-YrItnb-ua {
+    color: #989898 !important;
+  }
+
+  /* backup page cloud icon */
+  .a-Ul-YrItnb-ta {
+    background: #212121 !important;
+  }
+
+  .a-Ul-YrItnb-ta-Wb > svg {
+    filter: invert(1);
+  }
+
+  /* 
+  LIST VIEWS
+   */
+  /* table header background: */
+  .a-t-D {
+    background: #101010 !important;
+  }
+
+  /* table header */
+  .a-t-D-cb {
+    color: #989898 !important;
+  }
+
+  .a-Wa-ka {
+    color: #989898 !important;
+    background: #212121 !important;
+    border: 1px #989898 !important;
+  }
+
+  .l-Ab-T-r {
+    color: #989898 !important;
+  }
+
+  .a-gd-j.a-s-oe {
+    border-color: #101010 !important;
+  }
+}

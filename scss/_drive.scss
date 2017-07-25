@@ -1,0 +1,145 @@
+@import "_variables";
+
+input {
+    background: $c-accent !important;
+    color: $c-text !important;
+}
+input.gb_Zd {
+    background: none !important;
+}
+
+/* 	
+	top bar
+*/
+.gb_ud, .gb_qd, .gb_Td {
+    background: $bg-lighter !important;
+    color: $c-text !important;
+}
+.a-D-B-x {
+    background: #212121 !important;
+    box-shadow: none !important;
+}
+
+/* search bar accent on use */
+.gb_Ee {
+    background: $c-accent;
+}
+.gb_Ie {
+    background: $c-accent !important;
+}
+.a-nb-Va-d-Gk-M {
+    background: $c-accent !important;
+}
+
+/* icons*/
+.gb_Ie > svg, .a-nb-Va-d-Gk-M > svg, .a-w-d-aa-zd > svg, svg.a-nEbBXb-c, div.a-d-c > svg.a-s-fa-Ha-pa, svg.gb_1d, div.gb_ee > svg.gb_0d {
+    fill: $c-icon-white !important;
+}
+
+/* placeholder text*/
+.gb_Fe::-webkit-input-placeholder {
+    color: $c-text !important;
+}
+
+/* headers like "my drive" and specifically "backup" because it's different for some reason..*/
+.h-R-w-d-ff, .a-Kj-D {
+    color: $c-text !important;
+}
+
+/*
+left bar
+*/
+.a-da-Mf-B, div.a-da-Mf-B-ji-j {
+    background: $bg-lighter !important;
+}
+
+/* text on menu items */
+.a-s-T-j {
+    color: $c-text !important;
+}
+
+/* side menu icons */
+.a-s-fa-Ha-pa {
+    fill: $c-icon-darker !important;
+}
+
+/* free space text and upgrade storage */
+.xd-cr-lv, span.xd-A-r {
+    color: $c-text-darker !important;
+}
+
+/* background */
+.a-s-tb-Pe-Q {
+    background: $bg;
+}
+
+/* headers such as "bin" */
+.a-Kj-D {
+    color: $c-text !important;
+}
+
+/* "folders" on computers tab and maybe other stuff... */
+.a-ok-Ji-ga {
+    color: $c-text !important;
+}
+
+/* computer folder */
+div.a-u-xb-j.a-Wa-ka > div.l-u-xb.l-u-o {
+    filter: invert(0.8) grayscale(1);
+}
+
+/* sep between more and info on computer tab when selected */
+.a-d-vc {
+    border-color: $c-accent !important;
+}
+
+/* some bar at the bottom of starred afaik */
+.a-S-dc.a-S-dc-Vf {
+    background-color: $bg !important;
+}
+
+/* read the selector name... */
+#empty-view-content-starred {
+    color: $c-text !important;
+}
+
+/* backup page text*/
+.a-Ul-YrItnb-D {
+    color: $c-text !important;
+}
+.a-Ul-YrItnb-ua {
+    color: $c-text-darker !important;
+}
+
+/* backup page cloud icon */
+.a-Ul-YrItnb-ta {
+    background: $bg-lighter !important;
+}
+.a-Ul-YrItnb-ta-Wb > svg {
+    filter: invert(1);
+}
+
+/* 
+LIST VIEWS
+ */
+
+/* table header background: */
+.a-t-D {
+    background: $bg !important;
+}
+
+/* table header */
+.a-t-D-cb {
+    color: $c-text-darker !important;
+}
+.a-Wa-ka {
+    color: $c-text-darker !important;
+    background: $bg-lighter !important;
+    border: 1px $c-text-darker !important;
+}
+.l-Ab-T-r {
+    color: $c-text-darker !important;
+}
+.a-gd-j.a-s-oe {
+    border-color: $bg !important;
+}
