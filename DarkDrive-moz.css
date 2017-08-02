@@ -118,7 +118,8 @@
   }
 }
 @-moz-document url-prefix("https://drive.google.com/drive/") {
-  input {
+  /* input bar and magnifying glass nextto search bar */
+  input, .gb_ne {
     background: #333333 !important;
     color: #BBBBBB !important;
   }
@@ -127,10 +128,10 @@
     background: none !important;
   }
 
-  /* 	
-  	top bar
+  /*  
+      top bar
   */
-  .gb_ud, .gb_qd, .gb_Td {
+  .gb_ud, .gb_qd, .gb_td {
     background: #212121 !important;
     color: #BBBBBB !important;
   }
@@ -141,8 +142,8 @@
   }
 
   /* search bar accent on use */
-  .gb_Ee {
-    background: #333333;
+  .gb_Ee, .gb_De {
+    background: #333333 !important;
   }
 
   .gb_Ie {
@@ -154,12 +155,12 @@
   }
 
   /* icons*/
-  .gb_Ie > svg, .a-nb-Va-d-Gk-M > svg, .a-w-d-aa-zd > svg, svg.a-nEbBXb-c, div.a-d-c > svg.a-s-fa-Ha-pa, svg.gb_1d, div.gb_ee > svg.gb_0d {
+  .gb_He > svg, .gb_Ie > svg, .a-nb-Va-d-Gk-M > svg, .a-w-d-aa-zd > svg, svg.a-nEbBXb-c, div.a-d-c > svg.a-s-fa-Ha-pa, svg.gb_1d, div.gb_ee > svg.gb_0d, a.gb_b > svg, svg.gb_Zd {
     fill: #FFFFFF !important;
   }
 
   /* placeholder text*/
-  .gb_Fe::-webkit-input-placeholder {
+  .gb_Ee::-webkit-input-placeholder {
     color: #BBBBBB !important;
   }
 

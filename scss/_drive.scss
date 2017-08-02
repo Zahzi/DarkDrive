@@ -1,6 +1,7 @@
 @import "_variables";
 
-input {
+/* input bar and magnifying glass nextto search bar */
+input, .gb_ne {
     background: $c-accent !important;
     color: $c-text !important;
 }
@@ -8,10 +9,10 @@ input.gb_Zd {
     background: none !important;
 }
 
-/* 	
-	top bar
+/*  
+    top bar
 */
-.gb_ud, .gb_qd, .gb_Td {
+.gb_ud, .gb_qd, .gb_td {
     background: $bg-lighter !important;
     color: $c-text !important;
 }
@@ -21,8 +22,8 @@ input.gb_Zd {
 }
 
 /* search bar accent on use */
-.gb_Ee {
-    background: $c-accent;
+.gb_Ee, .gb_De {
+    background: $c-accent !important;
 }
 .gb_Ie {
     background: $c-accent !important;
@@ -32,12 +33,12 @@ input.gb_Zd {
 }
 
 /* icons*/
-.gb_Ie > svg, .a-nb-Va-d-Gk-M > svg, .a-w-d-aa-zd > svg, svg.a-nEbBXb-c, div.a-d-c > svg.a-s-fa-Ha-pa, svg.gb_1d, div.gb_ee > svg.gb_0d {
+.gb_He > svg, .gb_Ie > svg, .a-nb-Va-d-Gk-M > svg, .a-w-d-aa-zd > svg, svg.a-nEbBXb-c, div.a-d-c > svg.a-s-fa-Ha-pa, svg.gb_1d, div.gb_ee > svg.gb_0d, a.gb_b > svg, svg.gb_Zd {
     fill: $c-icon-white !important;
 }
 
 /* placeholder text*/
-.gb_Fe::-webkit-input-placeholder {
+.gb_Ee::-webkit-input-placeholder {
     color: $c-text !important;
 }
 
