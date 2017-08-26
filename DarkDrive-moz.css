@@ -268,6 +268,11 @@
     color: #989898 !important;
   }
 
+  /* name, lastmodified hover*/
+  .a-t-D-Wb-cb-oa.a-t-D-ip.a-t-D-yu:hover, .a-t-D-Wb-cb-oa.a-t-D-ip:hover, .h-w-d-W {
+    color: #BBB !important;
+  }
+
   /* table */
   .a-Wa-ka {
     color: #989898 !important;
