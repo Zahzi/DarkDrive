@@ -33,7 +33,7 @@ input.gb_Zd {
 }
 
 /* icons*/
-.gb_He > svg, .gb_Ie > svg, .a-nb-Va-d-Gk-M > svg, .a-w-d-aa-zd > svg, svg.a-nEbBXb-c, div.a-d-c > svg.a-s-fa-Ha-pa, svg.gb_1d, div.gb_ee > svg.gb_0d, a.gb_b > svg, svg.gb_Zd {
+.gb_He > svg, .gb_Ie > svg, .a-nb-Va-d-Gk-M > svg, .a-w-d-aa-zd > svg, svg.a-nEbBXb-c, div.a-d-c > svg.a-s-fa-Ha-pa, svg.gb_1d, div.gb_ee > svg.gb_0d, a.gb_b > svg, svg.gb_Zd, svg.gb_3d, .gb_Le > svg {
     fill: $c-icon-white !important;
 }
 
@@ -43,15 +43,25 @@ input.gb_Zd {
 }
 
 /* headers like "my drive" and specifically "backup" because it's different for some reason..*/
-.h-R-w-d-ff, .a-Kj-D, .w7Ppu {
+.a-Kj-D, .w7Ppu {
     color: $c-text !important;
+}
+
+/* file path current */
+.h-R-w-d-ff {
+    color: $c-text !important;
+}
+
+/*file path super dir */
+.o-Yc-o-T {
+    color: $c-text-darker2 !important;
 }
 
 /*
 left bar
 */
 .a-da-Mf-B, div.a-da-Mf-B-ji-j {
-    background: $bg-lighter !important;
+    background: $bg !important;
 }
 
 /* text on menu items */
@@ -134,16 +144,30 @@ LIST VIEWS
 .a-t-D-cb {
     color: $c-text-darker !important;
 }
+
+/* table */
 .a-Wa-ka {
     color: $c-text-darker !important;
     background: $bg-lighter !important;
     border: 1px $c-text-darker !important;
 }
+
+/* table text (some)*/
 .l-Ab-T-r {
     color: $c-text-darker !important;
 }
+
+/* who last modified */
+.a-s-Nc-Ej {
+    color: $c-text-darker2 !important;
+}
 .a-gd-j.a-s-oe {
     border-color: $bg !important;
+}
+
+/* remove white circle around folder icon */
+.l-t-T-c-j::before {
+    background: $bg-lighter !important;
 }
 
 /* quick access */

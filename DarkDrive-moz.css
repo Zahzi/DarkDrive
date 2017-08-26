@@ -155,7 +155,7 @@
   }
 
   /* icons*/
-  .gb_He > svg, .gb_Ie > svg, .a-nb-Va-d-Gk-M > svg, .a-w-d-aa-zd > svg, svg.a-nEbBXb-c, div.a-d-c > svg.a-s-fa-Ha-pa, svg.gb_1d, div.gb_ee > svg.gb_0d, a.gb_b > svg, svg.gb_Zd {
+  .gb_He > svg, .gb_Ie > svg, .a-nb-Va-d-Gk-M > svg, .a-w-d-aa-zd > svg, svg.a-nEbBXb-c, div.a-d-c > svg.a-s-fa-Ha-pa, svg.gb_1d, div.gb_ee > svg.gb_0d, a.gb_b > svg, svg.gb_Zd, svg.gb_3d, .gb_Le > svg {
     fill: #FFFFFF !important;
   }
 
@@ -165,15 +165,25 @@
   }
 
   /* headers like "my drive" and specifically "backup" because it's different for some reason..*/
-  .h-R-w-d-ff, .a-Kj-D, .w7Ppu {
+  .a-Kj-D, .w7Ppu {
     color: #BBBBBB !important;
+  }
+
+  /* file path current */
+  .h-R-w-d-ff {
+    color: #BBBBBB !important;
+  }
+
+  /*file path super dir */
+  .o-Yc-o-T {
+    color: #777777 !important;
   }
 
   /*
   left bar
   */
   .a-da-Mf-B, div.a-da-Mf-B-ji-j {
-    background: #212121 !important;
+    background: #101010 !important;
   }
 
   /* text on menu items */
@@ -258,18 +268,30 @@
     color: #989898 !important;
   }
 
+  /* table */
   .a-Wa-ka {
     color: #989898 !important;
     background: #212121 !important;
     border: 1px #989898 !important;
   }
 
+  /* table text (some)*/
   .l-Ab-T-r {
     color: #989898 !important;
   }
 
+  /* who last modified */
+  .a-s-Nc-Ej {
+    color: #777777 !important;
+  }
+
   .a-gd-j.a-s-oe {
     border-color: #101010 !important;
+  }
+
+  /* remove white circle around folder icon */
+  .l-t-T-c-j::before {
+    background: #212121 !important;
   }
 
   /* quick access */
