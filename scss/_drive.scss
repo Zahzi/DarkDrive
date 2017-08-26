@@ -181,3 +181,21 @@ LIST VIEWS
     background: $bg-lighter !important;
     color: $c-text !important;
 }
+
+/* scrollbar  */
+::-webkit-scrollbar {
+    width: 16px;
+    background-color: $bg-lighter !important;
+}
+::-webkit-scrollbar-track {
+    background-color: $bg-lighter !important;
+}
+::-webkit-scrollbar-thumb {
+    background-color: $c-text-darker2;
+    border: 3px solid transparent;
+    border-radius: 9px;
+    background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: $c-text !important;
+}
