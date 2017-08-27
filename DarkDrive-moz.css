@@ -317,7 +317,7 @@
   activity/details sidebar
   */
   /* cell background and sidebar background*/
-  .y-C, .y-E-hi, .y-E.g-oe, .a-ub-D, .y-C-Ed-V, .a-ub-Gd {
+  .y-C, .y-E-hi, .y-E.g-oe, .a-ub-D, .y-C-Ed-V, .a-ub-Gd, .a-ub-oa, .a-ub-sc-oa {
     background: #212121 !important;
   }
 
@@ -352,7 +352,7 @@
   }
 
   /* details pane */
-  .a-q-Gd.a-Zm, .a-s-tb-pa {
+  .a-q-Gd.a-Zm.a-s-tb-pa {
     background: #212121 !important;
     color: #BBBBBB !important;
   }
