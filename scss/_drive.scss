@@ -33,7 +33,7 @@ input.gb_Zd {
 }
 
 /* icons*/
-.gb_He > svg, .gb_Ie > svg, .a-nb-Va-d-Gk-M > svg, .a-w-d-aa-zd > svg, svg.a-nEbBXb-c, div.a-d-c > svg.a-s-fa-Ha-pa, svg.gb_1d, div.gb_ee > svg.gb_0d, a.gb_b > svg, svg.gb_Zd, svg.gb_3d, .gb_Le > svg {
+.gb_He > svg, .gb_Ie > svg, .a-nb-Va-d-Gk-M > svg, .a-w-d-aa-zd > svg, svg.a-nEbBXb-c, div.a-d-c > svg.a-s-fa-Ha-pa, svg.gb_1d, div.gb_ee > svg.gb_0d, a.gb_b > svg, svg.gb_Zd, svg.gb_3d, .gb_Le > svg, .a-q-Xc-Ab-c > svg > path.a-s-fa-Ha-pa {
     fill: $c-icon-white !important;
 }
 
@@ -185,6 +185,74 @@ LIST VIEWS
 .a-ok-Ji, .a-ok-Ji-ga {
     background: $bg-lighter !important;
     color: $c-text !important;
+}
+
+/*
+activity/details sidebar
+*/
+
+/* cell background and sidebar background*/
+.y-C, .y-E-hi, .y-E.g-oe, .a-ub-D, .y-C-Ed-V, .a-ub-Gd {
+    background: $bg-lighter !important;
+}
+
+/* _ edited an item date heading, folder name */
+.y-C-q-D, .y-C-H-Sb, .a-Mg-V-T, .h-ra {
+    color: $c-text !important;
+}
+
+/* device/time */
+.y-C-at, .y-C-Ed-V {
+    color: $c-text-darker !important;
+}
+
+/* filename */
+.y-C-ka-T.y-C-xj-ka.y-C-ra-ka {
+    color: $c-text-darker !important;
+}
+
+/* "no recorded activity" */
+.y-E-Xc-Ma-hi-r {
+    color: $c-text-darker !important;
+}
+
+/* details/activity heading when selected */
+.h-ra.h-ra-W.h-ra-ha {
+    color: darken($c-text-lighter, 0.15) !important;
+}
+
+/* bar under heading */
+.a-ra-Mb-j {
+    filter: invert(1) grayscale(1);
+}
+
+/* details pane */
+.a-q-Gd.a-Zm, .a-s-tb-pa {
+    background: $bg-lighter !important;
+    color: $c-text !important;
+}
+
+/* type, location, owner, etc, add a description */
+.a-q-Jc-bj, .a-q-Lb-go {
+    color: $c-text-darker2 !important;
+}
+
+/*folder icon background panel */
+.a-q-D-j {
+    background: $c-accent !important;
+}
+
+/* not shared icon */
+.H-qa-Ma-d-Jb.a-q-me-Z-c-j, .a-q-me-Z-c >svg {
+    border-color: $c-text-darker2 !important;
+    fill: $c-icon-white !important;
+}
+
+/* add description text box */
+.a-q-Lb-Cb {
+    background: #222 !important;
+    border-color: #989898 !important;
+    color: #989898;
 }
 
 /* scrollbar  */
