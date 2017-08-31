@@ -9,6 +9,11 @@ input.gb_Zd {
     background: none !important;
 }
 
+/* search bar accent on use */
+.gb_Ee, .gb_De, .gb_Ie, .a-nb-Va-d-Gk-M, .gb_Je {
+    background: $c-accent !important;
+}
+
 /*  
     top bar
 */
@@ -19,17 +24,6 @@ input.gb_Zd {
 .a-D-B-x {
     background: #212121 !important;
     box-shadow: none !important;
-}
-
-/* search bar accent on use */
-.gb_Ee, .gb_De, .gb_Je {
-    background: $c-accent !important;
-}
-.gb_Ie {
-    background: $c-accent !important;
-}
-.a-nb-Va-d-Gk-M {
-    background: $c-accent !important;
 }
 
 /* icons*/
