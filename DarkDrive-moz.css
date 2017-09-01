@@ -153,6 +153,12 @@
     border: 1px #989898 !important;
   }
 
+  /* table when selected */
+  .a-t-J-ha {
+    color: #bbb !important;
+    background: #333 !important;
+  }
+
   /* table text (some)*/
   .l-Ab-T-r {
     color: #989898 !important;
@@ -169,7 +175,7 @@
 
   /* remove white circle around folder icon */
   .l-t-T-c-j::before {
-    background: #212121 !important;
+    background: transparent !important;
   }
 
   /* quick access */
