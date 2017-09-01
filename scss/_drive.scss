@@ -151,6 +151,13 @@ LIST VIEWS
     border: 1px $c-text-darker !important;
 }
 
+/* table when selected */
+.a-t-J-ha {
+    color: #bbb !important;
+    age settings 
+    background: #333 !important;
+}
+
 /* table text (some)*/
 .l-Ab-T-r {
     color: $c-text-darker !important;
@@ -166,7 +173,7 @@ LIST VIEWS
 
 /* remove white circle around folder icon */
 .l-t-T-c-j::before {
-    background: $bg-lighter !important;
+    background: transparent !important;
 }
 
 /* quick access */
