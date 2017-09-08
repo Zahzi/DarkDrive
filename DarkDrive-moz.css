@@ -39,7 +39,7 @@
 
   /* placeholder text*/
   .gb_Pe::-webkit-input-placeholder {
-    color: #BBBBBB !important;
+    color: #989898 !important;
   }
 
   /* headers like "my drive" and specifically "backup" because it's different for some reason..*/
