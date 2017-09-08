@@ -41,6 +41,12 @@ input.gb_Zd {
     color: $c-text-darker !important;
 }
 
+/* for firefox */
+.gb_Pe::-moz-placeholder {
+    color: $c-text-darker !important;
+    opacity: 1 !important;
+}
+
 /* headers like "my drive" and specifically "backup" because it's different for some reason..*/
 .a-Kj-D, .w7Ppu {
     color: $c-text !important;

@@ -42,6 +42,12 @@
     color: #989898 !important;
   }
 
+  /* for firefox */
+  .gb_Pe::-moz-placeholder {
+    color: #989898 !important;
+    opacity: 1 !important;
+  }
+
   /* headers like "my drive" and specifically "backup" because it's different for some reason..*/
   .a-Kj-D, .w7Ppu {
     color: #BBBBBB !important;
