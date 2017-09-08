@@ -1,7 +1,7 @@
 @import "_variables";
 
 /* input bar and magnifying glass nextto search bar */
-input, .gb_ne {
+input, .gb_Re {
     background: $c-accent !important;
     color: $c-text !important;
 }
@@ -10,8 +10,13 @@ input.gb_Zd {
 }
 
 /* search bar accent on use */
-.gb_Ee, .gb_De, .gb_Ie, .a-nb-Va-d-Gk-M, .gb_Je {
+.gb_Pe, .gb_De, .gb_Ie, .a-nb-Va-d-Gk-M, .gb_Je {
     background: $c-accent !important;
+}
+
+/* fix white border on use */
+.gb_xe.gb_4e {
+    border-color: $c-accent !important;
 }
 
 /*  
@@ -27,12 +32,12 @@ input.gb_Zd {
 }
 
 /* icons*/
-.gb_He > svg, .gb_Ie > svg, .a-nb-Va-d-Gk-M > svg, .a-w-d-aa-zd > svg, svg.a-nEbBXb-c, div.a-d-c > svg.a-s-fa-Ha-pa, svg.gb_1d, div.gb_ee > svg.gb_0d, a.gb_b > svg, svg.gb_Zd, svg.gb_3d, .gb_Le > svg, .a-q-Xc-Ab-c > svg > path.a-s-fa-Ha-pa, .gb_Me > svg {
+.gb_He > svg, .gb_Ie > svg, .a-nb-Va-d-Gk-M > svg, .a-w-d-aa-zd > svg, svg.a-nEbBXb-c, div.a-d-c > svg.a-s-fa-Ha-pa, svg.gb_1d, div.gb_ee > svg.gb_0d, a.gb_b > svg, svg.gb_Zd, svg.gb_3d, .gb_Le > svg, .a-q-Xc-Ab-c > svg > path.a-s-fa-Ha-pa, .gb_Me > svg, .gb_Re > svg, .gb_3e.gb_5e > svg {
     fill: $c-icon-white !important;
 }
 
 /* placeholder text*/
-.gb_Ee::-webkit-input-placeholder {
+.gb_Pe::-webkit-input-placeholder {
     color: $c-text !important;
 }
 
@@ -243,7 +248,7 @@ activity/details sidebar
 }
 
 /* not shared icon */
-.H-qa-Ma-d-Jb.a-q-me-Z-c-j, .a-q-me-Z-c >svg {
+.H-qa-Ma-d-Jb.a-q-me-Z-c-j, .a-q-me-Z-c > svg {
     border-color: $c-text-darker2 !important;
     fill: $c-icon-white !important;
 }
