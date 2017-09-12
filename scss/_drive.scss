@@ -5,6 +5,7 @@ input, .gb_Re {
     background: $c-accent !important;
     color: $c-text !important;
 }
+
 input.gb_Zd {
     background: none !important;
 }
@@ -26,6 +27,7 @@ input.gb_Zd {
     background: $bg-lighter !important;
     color: $c-text !important;
 }
+
 .a-D-B-x {
     background: #212121 !important;
     box-shadow: none !important;
@@ -94,15 +96,23 @@ left bar
     color: $c-text !important;
 }
 
-/* "folders" on computers tab and maybe other stuff... */
-.a-ok-Ji-ga {
-    color: $c-text !important;
+/*
+grid item 
+*/
+
+/* grid item rectangle */
+.l-u-xb.l-u-o {
+    background: $c-accent !important;
 }
 
-/* computer folder */
-div.a-u-xb-j.a-Wa-ka > div.l-u-xb.l-u-o {
-    filter: invert(0.8) grayscale(1);
-    box-shadow: none !important;
+/* selected */
+.l-u-xb.l-u-o.l-u-ha, .l-u-xb.l-u-o.l-u-ha > .l-u-o-c-j.a-c-j > .a-c-j::before {
+    background: $c-accent-lighter !important;
+}
+
+/* circle around folder icon */
+.a-c-j::before {
+    background: $c-accent !important;
 }
 
 /* sep between more and info on computer tab when selected */
@@ -124,6 +134,7 @@ div.a-u-xb-j.a-Wa-ka > div.l-u-xb.l-u-o {
 .a-Ul-YrItnb-D {
     color: $c-text !important;
 }
+
 .a-Ul-YrItnb-ua {
     color: $c-text-darker !important;
 }
@@ -132,6 +143,7 @@ div.a-u-xb-j.a-Wa-ka > div.l-u-xb.l-u-o {
 .a-Ul-YrItnb-ta {
     background: $bg-lighter !important;
 }
+
 .a-Ul-YrItnb-ta-Wb > svg {
     filter: invert(1);
 }
@@ -170,13 +182,14 @@ LIST VIEWS
 
 /* table text (some)*/
 .l-Ab-T-r {
-    color: $c-text-darker !important;
+    color: $c-text !important;
 }
 
 /* who last modified */
 .a-s-Nc-Ej {
     color: $c-text-darker2 !important;
 }
+
 .a-gd-j.a-s-oe {
     border-color: $bg !important;
 }
@@ -190,9 +203,11 @@ LIST VIEWS
 .L202Xe {
     filter: invert(0.9) grayscale(1);
 }
+
 .L202Xe {
     box-shadow: none !important;
 }
+
 .a-ok-Ji, .a-ok-Ji-ga {
     background: $bg-lighter !important;
     color: $c-text !important;
@@ -271,15 +286,18 @@ activity/details sidebar
     width: 16px;
     background-color: $bg-lighter !important;
 }
+
 ::-webkit-scrollbar-track {
     background-color: $bg-lighter !important;
 }
+
 ::-webkit-scrollbar-thumb {
     background-color: $c-text-darker2;
     border: 3px solid transparent;
     border-radius: 9px;
     background-clip: content-box;
 }
+
 ::-webkit-scrollbar-thumb:hover {
     background-color: $c-text !important;
 }

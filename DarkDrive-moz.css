@@ -95,15 +95,22 @@
     color: #BBBBBB !important;
   }
 
-  /* "folders" on computers tab and maybe other stuff... */
-  .a-ok-Ji-ga {
-    color: #BBBBBB !important;
+  /*
+  grid item 
+  */
+  /* grid item rectangle */
+  .l-u-xb.l-u-o {
+    background: #333333 !important;
   }
 
-  /* computer folder */
-  div.a-u-xb-j.a-Wa-ka > div.l-u-xb.l-u-o {
-    filter: invert(0.8) grayscale(1);
-    box-shadow: none !important;
+  /* selected */
+  .l-u-xb.l-u-o.l-u-ha, .l-u-xb.l-u-o.l-u-ha > .l-u-o-c-j.a-c-j > .a-c-j::before {
+    background: #424242 !important;
+  }
+
+  /* circle around folder icon */
+  .a-c-j::before {
+    background: #333333 !important;
   }
 
   /* sep between more and info on computer tab when selected */
@@ -172,7 +179,7 @@
 
   /* table text (some)*/
   .l-Ab-T-r {
-    color: #989898 !important;
+    color: #BBBBBB !important;
   }
 
   /* who last modified */
