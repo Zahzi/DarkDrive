@@ -1,6 +1,6 @@
 @-moz-document url-prefix("https://drive.google.com/drive/") {
-  /* input bar and magnifying glass nextto search bar */
-  input, .gb_Re {
+  /* input bar and magnifying glass nextto search bar and weird button class in input bar */
+  input, .gb_Re, .gb_xe.gb_4e {
     background: #333333 !important;
     color: #BBBBBB !important;
   }

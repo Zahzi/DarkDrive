@@ -1,7 +1,7 @@
 @import "_variables";
 
-/* input bar and magnifying glass nextto search bar */
-input, .gb_Re {
+/* input bar and magnifying glass nextto search bar and weird button class in input bar */
+  input, .gb_Re, .gb_xe.gb_4e {
     background: $c-accent !important;
     color: $c-text !important;
 }
