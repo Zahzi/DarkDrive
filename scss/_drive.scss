@@ -1,7 +1,7 @@
 @import "_variables";
 
 /* input bar and magnifying glass nextto search bar and weird button class in input bar */
-  input, .gb_Re, .gb_xe.gb_4e {
+input, .gb_Re, .gb_xe.gb_4e {
     background: $c-accent !important;
     color: $c-text !important;
 }
@@ -301,4 +301,51 @@ activity/details sidebar
 
 ::-webkit-scrollbar-thumb:hover {
     background-color: $c-text !important;
+}
+
+/* search dropdown */
+
+/* .gssb_e, .gssb_m, .gssb_a, .gsfs, .gssb_f{ */
+.gssb_m, .gssb_e {
+    background: #222 !important;
+    color: #bbb !important;
+}
+
+.gssb_i {
+    background: #333 !important;
+}
+
+/* seperator */
+.gssb_l {
+    background: #333 !important;
+}
+
+/* borders */
+td.gssb_e, td.gssb_f {
+    border-color: #333 !important;
+}
+
+/* google app switcher */
+
+/* body background */
+.gb_ia.gb_ba, .gb_ia.gb_ba > li {
+    background: #212121 !important;
+    color: #bbb !important;
+}
+
+/* border */
+.gb_ga.gb_fa.gb_za.gb_ha.gb_g {
+    border-color: #333 !important;
+}
+
+/* mpre button */
+.gb_ja.gb_Hf {
+    background: #1c1c1c !important;
+    color: #989898 !important;
+}
+
+/* border for notification dropdown */
+.gb_fa.gb_g.gb_Kc {
+    border-color: #333 !important;
+    border: 0px !important;
 }

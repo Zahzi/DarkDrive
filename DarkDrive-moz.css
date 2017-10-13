@@ -298,6 +298,51 @@
   ::-webkit-scrollbar-thumb:hover {
     background-color: #BBBBBB !important;
   }
+
+  /* search dropdown */
+  /* .gssb_e, .gssb_m, .gssb_a, .gsfs, .gssb_f{ */
+  .gssb_m, .gssb_e {
+    background: #222 !important;
+    color: #bbb !important;
+  }
+
+  .gssb_i {
+    background: #333 !important;
+  }
+
+  /* seperator */
+  .gssb_l {
+    background: #333 !important;
+  }
+
+  /* borders */
+  td.gssb_e, td.gssb_f {
+    border-color: #333 !important;
+  }
+
+  /* google app switcher */
+  /* body background */
+  .gb_ia.gb_ba, .gb_ia.gb_ba > li {
+    background: #212121 !important;
+    color: #bbb !important;
+  }
+
+  /* border */
+  .gb_ga.gb_fa.gb_za.gb_ha.gb_g {
+    border-color: #333 !important;
+  }
+
+  /* mpre button */
+  .gb_ja.gb_Hf {
+    background: #1c1c1c !important;
+    color: #989898 !important;
+  }
+
+  /* border for notification dropdown */
+  .gb_fa.gb_g.gb_Kc {
+    border-color: #333 !important;
+    border: 0px !important;
+  }
 }
 @-moz-document url-prefix("https://docs.google.com/document/d/") {
   /* background */
@@ -416,5 +461,77 @@
     color: #BBBBBB;
     background: #222;
     border-color: #333333;
+  }
+}
+@-moz-document regexp("https?://notifications.google.(com|([a-z]{2}))(.[a-z]{2})?/u/0/widget\\?.*") {
+  /*
+      This section was adatped from: https://raw.githubusercontent.com/pawelos076232/DarkSearch/master/DarkSearch.css 
+  */
+  /*dropdown background*/
+  .gV6pJf, #gbsfw.gb_Ic {
+    background: #212121 !important;
+    border-color: #212121;
+  }
+
+  /*notification background*/
+  .CxSKqd.PNdSh, .CxSKqd.Wj1LYb, .CxSKqd {
+    background: #151515;
+  }
+
+  /*icons*/
+  .iWO9fc .mUbCce svg, .yxaWLe svg, .ajgU6 {
+    fill: rgba(255, 255, 255, 0.54);
+  }
+
+  /*icons:hover*/
+  .iWO9fc .mUbCce:hover svg, .yxaWLe:hover svg {
+    fill: rgba(255, 255, 255, 0.87);
+  }
+
+  /*logo Google*/
+  .XSVuue {
+    fill: rgba(255, 255, 255, 0.26);
+  }
+
+  /*text*/
+  .v7k2xf, .v7k2xf, .gMG7Fd, .wh73ab {
+    color: rgba(255, 255, 255, 0.87);
+  }
+
+  /*subtext*/
+  .OlDqke, .Vz68Kb {
+    color: rgba(255, 255, 255, 0.54);
+  }
+
+  /*footer-bar*/
+  .fEjTrb, .jvWPmb.qs41qe .fEjTrb {
+    background-color: #1d1d1d;
+  }
+
+  /*opened notification header bg*/
+  .xMujpb {
+    background-color: #1d1d1d;
+  }
+
+  /*opened notification bg*/
+  .E4TZmd, .RIrM6d {
+    background: #101010;
+  }
+
+  .utcmad {
+    color: #c5c5c5;
+  }
+
+  body, .m3JvWd, .g6UaYd, .vGowKb {
+    color: rgba(255, 255, 255, 0.87);
+  }
+
+  .LCX1Id, .XGOYJd > :first-child, .ZYK0Xb {
+    border-top-color: #252525;
+  }
+
+  /*circle icon bg*/
+  .GsLz7c, .sH8mib {
+    background: #212121;
   }
 }
