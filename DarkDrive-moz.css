@@ -1,8 +1,8 @@
-@-moz-document url-prefix("https://drive.google.com/drive/") {
+@-moz-document url-prefix('https://drive.google.com/drive/') {
   /* input bar and magnifying glass nextto search bar and weird button class in input bar */
   input, .gb_Re, .gb_xe.gb_4e {
-    background: #333333 !important;
-    color: #BBBBBB !important;
+    background: #333 !important;
+    color: #bbb !important;
   }
 
   input.gb_Zd {
@@ -11,20 +11,20 @@
 
   /* search bar accent on use */
   .gb_Pe, .gb_De, .gb_Ie, .a-nb-Va-d-Gk-M, .gb_Je {
-    background: #333333 !important;
+    background: #333 !important;
   }
 
   /* fix white border on use */
   .gb_xe.gb_4e {
-    border-color: #333333 !important;
+    border-color: #333 !important;
   }
 
-  /*  
+  /*
       top bar
   */
   .gb_ud, .gb_qd, .gb_td {
     background: #212121 !important;
-    color: #BBBBBB !important;
+    color: #bbb !important;
   }
 
   .a-D-B-x {
@@ -34,7 +34,7 @@
 
   /* icons*/
   .gb_He > svg, .gb_Ie > svg, .a-nb-Va-d-Gk-M > svg, .a-w-d-aa-zd > svg, svg.a-nEbBXb-c, div.a-d-c > svg.a-s-fa-Ha-pa, svg.gb_1d, div.gb_ee > svg.gb_0d, a.gb_b > svg, svg.gb_Zd, svg.gb_3d, .gb_Le > svg, .a-q-Xc-Ab-c > svg > path.a-s-fa-Ha-pa, .gb_Me > svg, .gb_Re > svg, .gb_3e.gb_5e > svg {
-    fill: #FFFFFF !important;
+    fill: #fff !important;
   }
 
   /* placeholder text*/
@@ -50,17 +50,17 @@
 
   /* headers like "my drive" and specifically "backup" because it's different for some reason..*/
   .a-Kj-D, .w7Ppu {
-    color: #BBBBBB !important;
+    color: #bbb !important;
   }
 
   /* file path current */
   .h-R-w-d-ff {
-    color: #BBBBBB !important;
+    color: #bbb !important;
   }
 
   /*file path super dir */
   .o-Yc-o-T {
-    color: #777777 !important;
+    color: #777 !important;
   }
 
   /*
@@ -72,7 +72,7 @@
 
   /* text on menu items */
   .a-s-T-j {
-    color: #BBBBBB !important;
+    color: #bbb !important;
   }
 
   /* side menu icons */
@@ -92,15 +92,15 @@
 
   /* headers such as "bin" */
   .a-Kj-D {
-    color: #BBBBBB !important;
+    color: #bbb !important;
   }
 
   /*
-  grid item 
+  grid item
   */
   /* grid item rectangle */
   .l-u-xb.l-u-o {
-    background: #333333 !important;
+    background: #333 !important;
   }
 
   /* selected */
@@ -110,12 +110,12 @@
 
   /* circle around folder icon */
   .a-c-j::before {
-    background: #333333 !important;
+    background: #333 !important;
   }
 
   /* sep between more and info on computer tab when selected */
   .a-d-vc {
-    border-color: #333333 !important;
+    border-color: #333 !important;
   }
 
   /* some bar at the bottom of starred afaik */
@@ -125,12 +125,12 @@
 
   /* read the selector name... */
   #empty-view-content-starred {
-    color: #BBBBBB !important;
+    color: #bbb !important;
   }
 
   /* backup page text*/
   .a-Ul-YrItnb-D {
-    color: #BBBBBB !important;
+    color: #bbb !important;
   }
 
   .a-Ul-YrItnb-ua {
@@ -146,7 +146,7 @@
     filter: invert(1);
   }
 
-  /* 
+  /*
   LIST VIEWS
    */
   /* table header background: */
@@ -161,7 +161,7 @@
 
   /* name, lastmodified hover*/
   .a-t-D-Wb-cb-oa.a-t-D-ip.a-t-D-yu:hover, .a-t-D-Wb-cb-oa.a-t-D-ip:hover, .h-w-d-W {
-    color: #BBB !important;
+    color: #bbb !important;
   }
 
   /* table */
@@ -179,12 +179,12 @@
 
   /* table text (some)*/
   .l-Ab-T-r {
-    color: #BBBBBB !important;
+    color: #bbb !important;
   }
 
   /* who last modified */
   .a-s-Nc-Ej {
-    color: #777777 !important;
+    color: #777 !important;
   }
 
   .a-gd-j.a-s-oe {
@@ -200,15 +200,12 @@
   /* quick access */
   .L202Xe {
     filter: invert(0.9) grayscale(1);
-  }
-
-  .L202Xe {
     box-shadow: none !important;
   }
 
   .a-ok-Ji, .a-ok-Ji-ga {
     background: #212121 !important;
-    color: #BBBBBB !important;
+    color: #bbb !important;
   }
 
   /*
@@ -221,7 +218,7 @@
 
   /* _ edited an item date heading, folder name */
   .y-C-q-D, .y-C-H-Sb, .a-Mg-V-T, .h-ra {
-    color: #BBBBBB !important;
+    color: #bbb !important;
   }
 
   /* device/time */
@@ -252,23 +249,23 @@
   /* details pane */
   .a-q-Gd.a-Zm.a-s-tb-pa {
     background: #212121 !important;
-    color: #BBBBBB !important;
+    color: #bbb !important;
   }
 
   /* type, location, owner, etc, add a description */
   .a-q-Jc-bj, .a-q-Lb-go {
-    color: #777777 !important;
+    color: #777 !important;
   }
 
   /*folder icon background panel */
   .a-q-D-j {
-    background: #333333 !important;
+    background: #333 !important;
   }
 
   /* not shared icon */
   .H-qa-Ma-d-Jb.a-q-me-Z-c-j, .a-q-me-Z-c > svg {
-    border-color: #777777 !important;
-    fill: #FFFFFF !important;
+    border-color: #777 !important;
+    fill: #fff !important;
   }
 
   /* add description text box */
@@ -289,14 +286,14 @@
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: #777777;
+    background-color: #777;
     border: 3px solid transparent;
     border-radius: 9px;
     background-clip: content-box;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background-color: #BBBBBB !important;
+    background-color: #bbb !important;
   }
 
   /* search dropdown */
@@ -344,7 +341,7 @@
     border: 0px !important;
   }
 }
-@-moz-document url-prefix("https://docs.google.com/document/d/") {
+@-moz-document url-prefix('https://docs.google.com/document/d/') {
   /* background */
   body, #docs-editor {
     background: #101010 !important;
@@ -356,23 +353,23 @@
   }
 
   div.kix-ruler-background-inner {
-    background: #333333 !important;
+    background: #333 !important;
   }
 
   div#kix-ruler {
-    border-bottom: 1px solid #000000 !important;
+    border-bottom: 1px solid #000 !important;
   }
 
   /* top */
   div#docs-chrome {
     background: #212121 !important;
-    color: #BBBBBB !important;
+    color: #bbb !important;
   }
 
   input.docs-title-input {
     /* title box */
     background-color: #212121 !important;
-    color: #BBBBBB !important;
+    color: #bbb !important;
   }
 
   input.docs-title-untitled {
@@ -422,7 +419,7 @@
   div#insert-equation-button {
     /*insert eqn button */
     background: #222;
-    border-color: #333333;
+    border-color: #333;
   }
 
   #docs-equationtoolbar > div.goog-toolbar-menu-button.goog-toolbar-menu-button.goog-inline-block {
@@ -434,7 +431,7 @@
   div.jfk-bubble.docs-toolbar-more-bubble, div.docs-toolbar-more-toolbar {
     /* more dropdown */
     background: #f4f4f4;
-    border-color: #333333 !important;
+    border-color: #333 !important;
   }
 
   div#docs-primary-toolbars, div.docs-toolbar-more-toolbar {
@@ -447,7 +444,7 @@
     -webkit-filter: invert(1) !important;
     filter: invert(1) !important;
     background: #0c0c0c;
-    border: 1px solid #333333 !important;
+    border: 1px solid #333 !important;
   }
 
   /* invert toolbar and sep */
@@ -458,14 +455,14 @@
   }
 
   div#docs-docos-commentsbutton, div.goog-inline-block.jfk-button.jfk-button-action.docs-titlebar-button {
-    color: #BBBBBB;
+    color: #bbb;
     background: #222;
-    border-color: #333333;
+    border-color: #333;
   }
 }
-@-moz-document regexp("https?://notifications.google.(com|([a-z]{2}))(.[a-z]{2})?/u/0/widget\\?.*") {
+@-moz-document regexp('https?://notifications.google.(com|([a-z]{2}))(.[a-z]{2})?/u/0/widget\\?.*') {
   /*
-      This section was adatped from: https://raw.githubusercontent.com/pawelos076232/DarkSearch/master/DarkSearch.css 
+      This section was adatped from: https://raw.githubusercontent.com/pawelos076232/DarkSearch/master/DarkSearch.css
   */
   /*dropdown background*/
   .gV6pJf, #gbsfw.gb_Ic {

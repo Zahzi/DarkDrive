@@ -1,4 +1,4 @@
-@import "_variables";
+@import 'variables';
 
 /* background */
 body, #docs-editor {
@@ -24,16 +24,19 @@ div#docs-chrome {
     color: $c-text !important;
 }
 
-input.docs-title-input { /* title box */
+input.docs-title-input {
+    /* title box */
     background-color: $bg-lighter !important;
     color: $c-text !important;
 }
 
-input.docs-title-untitled { /* title box */
+input.docs-title-untitled {
+    /* title box */
     display: none !important;
 }
 
-div#docs-star { /* star icon */
+div#docs-star {
+    /* star icon */
     -webkit-filter: invert(0.3) grayscale(1) !important;
     filter: invert(0.3) grayscale(1) !important;
 }
@@ -43,31 +46,36 @@ div#docs-folder {
     filter: invert(0.6) grayscale(1) !important;
 }
 
-div.jfk-activityIndicator-circle-transition { /* activity indicator */
+div.jfk-activityIndicator-circle-transition {
+    /* activity indicator */
     -webkit-filter: invert(1) !important;
     filter: invert(1) !important;
 }
 
-div#docs-chat { /*   toolbar chat button   */
+div#docs-chat {
+    /*   toolbar chat button   */
     -webkit-filter: invert(0.9) !important;
     filter: invert(0.9) !important;
 }
 
 /*  toolbar */
-div#docs-toolbar-wrapper { /* bar */
+div#docs-toolbar-wrapper {
+    /* bar */
     border-top: 0px solid $c-accent-lighter !important;
     border-bottom: 1px solid $c-accent-lighter !important;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.15) !important;
     background: $bg-button !important;
 }
 
-div#docs-equationtoolbar { /* equation toolbar */
+div#docs-equationtoolbar {
+    /* equation toolbar */
     border-top: 0px solid $c-accent-lighter !important;
     border-bottom: 1px solid $c-accent-lighter !important;
     background: $bg-lighter;
 }
 
-div#insert-equation-button { /*insert eqn button */
+div#insert-equation-button {
+    /*insert eqn button */
     background: $bg-button;
     border-color: $c-accent;
 }
@@ -78,12 +86,14 @@ div#insert-equation-button { /*insert eqn button */
     filter: invert(0.9) !important;
 }
 
-div.jfk-bubble.docs-toolbar-more-bubble, div.docs-toolbar-more-toolbar { /* more dropdown */
+div.jfk-bubble.docs-toolbar-more-bubble, div.docs-toolbar-more-toolbar {
+    /* more dropdown */
     background: lighten(invert($bg), 2%);
     border-color: $c-accent !important;
 }
 
-div#docs-primary-toolbars, div.docs-toolbar-more-toolbar { /* toolbar icons */
+div#docs-primary-toolbars, div.docs-toolbar-more-toolbar {
+    /* toolbar icons */
     -webkit-filter: invert(0.9) !important;
     filter: invert(0.9) !important;
 }
@@ -96,7 +106,8 @@ div#docs-access-level-indicator {
 }
 
 /* invert toolbar and sep */
-div.docs-icon.goog-inline-block.goog-control-icon, div#docs-toolbar-mode-switcher-separator { /* add to drive icon */
+div.docs-icon.goog-inline-block.goog-control-icon, div#docs-toolbar-mode-switcher-separator {
+    /* add to drive icon */
     -webkit-filter: invert(0.7) grayscale(1) !important;
     filter: invert(0.7) grayscale(1) !important;
 }

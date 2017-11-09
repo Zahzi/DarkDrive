@@ -1,11 +1,11 @@
-@-moz-document url-prefix("https://drive.google.com/drive/") {
-    @import "_drive.scss";
+@-moz-document url-prefix('https://drive.google.com/drive/') {
+    @import 'drive';
 }
 
-@-moz-document url-prefix("https://docs.google.com/document/d/") {
-    @import "_docs.scss";
+@-moz-document url-prefix('https://docs.google.com/document/d/') {
+    @import 'docs';
 }
 
-@-moz-document regexp("https?://notifications.google.(com|([a-z]{2}))(.[a-z]{2})?/u/0/widget\\?.*") {
-    @import "_notification_dropdown.scss";
+@-moz-document regexp('https?://notifications.google.(com|([a-z]{2}))(.[a-z]{2})?/u/0/widget\\?.*') {
+    @import 'notification_dropdown';
 }

@@ -1,4 +1,4 @@
-@import "_variables";
+@import 'variables';
 
 /* input bar and magnifying glass nextto search bar and weird button class in input bar */
 input, .gb_Re, .gb_xe.gb_4e {
@@ -20,7 +20,7 @@ input.gb_Zd {
     border-color: $c-accent !important;
 }
 
-/*  
+/*
     top bar
 */
 .gb_ud, .gb_qd, .gb_td {
@@ -29,7 +29,7 @@ input.gb_Zd {
 }
 
 .a-D-B-x {
-    background: #212121 !important;
+    background: $bg-lighter !important;
     box-shadow: none !important;
 }
 
@@ -97,7 +97,7 @@ left bar
 }
 
 /*
-grid item 
+grid item
 */
 
 /* grid item rectangle */
@@ -148,7 +148,7 @@ grid item
     filter: invert(1);
 }
 
-/* 
+/*
 LIST VIEWS
  */
 
@@ -164,7 +164,7 @@ LIST VIEWS
 
 /* name, lastmodified hover*/
 .a-t-D-Wb-cb-oa.a-t-D-ip.a-t-D-yu:hover, .a-t-D-Wb-cb-oa.a-t-D-ip:hover, .h-w-d-W {
-    color: #BBB !important;
+    color: $c-text !important;
 }
 
 /* table */
@@ -176,8 +176,8 @@ LIST VIEWS
 
 /* table when selected */
 .a-t-J-ha {
-    color: #bbb !important;
-    background: #333 !important;
+    color: $c-text !important;
+    background: $c-accent !important;
 }
 
 /* table text (some)*/
@@ -203,11 +203,9 @@ LIST VIEWS
 /* quick access */
 .L202Xe {
     filter: invert(0.9) grayscale(1);
-}
-
-.L202Xe {
     box-shadow: none !important;
 }
+
 
 .a-ok-Ji, .a-ok-Ji-ga {
     background: $bg-lighter !important;
@@ -277,9 +275,9 @@ activity/details sidebar
 
 /* add description text box */
 .a-q-Lb-Cb {
-    background: #222 !important;
-    border-color: #989898 !important;
-    color: #989898;
+    background: $bg-button !important;
+    border-color: $c-text-darker !important;
+    color: $c-text-darker;
 }
 
 /* scrollbar  */
@@ -307,22 +305,22 @@ activity/details sidebar
 
 /* .gssb_e, .gssb_m, .gssb_a, .gsfs, .gssb_f{ */
 .gssb_m, .gssb_e {
-    background: #222 !important;
-    color: #bbb !important;
+    background: $bg-button !important;
+    color: $c-text !important;
 }
 
 .gssb_i {
-    background: #333 !important;
+    background: $c-accent !important;
 }
 
 /* seperator */
 .gssb_l {
-    background: #333 !important;
+    background: $c-accent !important;
 }
 
 /* borders */
 td.gssb_e, td.gssb_f {
-    border-color: #333 !important;
+    border-color: $c-accent !important;
 }
 
 /* google app switcher */
@@ -330,22 +328,22 @@ td.gssb_e, td.gssb_f {
 /* body background */
 .gb_ia.gb_ba, .gb_ia.gb_ba > li {
     background: #212121 !important;
-    color: #bbb !important;
+    color: $c-text !important;
 }
 
 /* border */
 .gb_ga.gb_fa.gb_za.gb_ha.gb_g {
-    border-color: #333 !important;
+    border-color: $c-accent !important;
 }
 
 /* mpre button */
 .gb_ja.gb_Hf {
     background: #1c1c1c !important;
-    color: #989898 !important;
+    color: $c-text-darker !important;
 }
 
 /* border for notification dropdown */
 .gb_fa.gb_g.gb_Kc {
-    border-color: #333 !important;
+    border-color: $c-accent !important;
     border: 0px !important;
 }
