@@ -1,7 +1,7 @@
 @-moz-document url-prefix('https://drive.google.com/drive/') {
   /* input bar and magnifying glass nextto search bar and weird button class in input bar */
-  input, .gb_Re, .gb_xe.gb_4e {
-    background: #333 !important;
+  input.gb_We, .gb_Re, .gb_xe.gb_4e, .gb_af, .gb_Ee.gb_bf {
+    background: #333;
     color: #bbb !important;
   }
 
@@ -9,9 +9,9 @@
     background: none !important;
   }
 
-  /* search bar accent on use */
-  .gb_Pe, .gb_De, .gb_Ie, .a-nb-Va-d-Gk-M, .gb_Je {
-    background: #333 !important;
+  /* search bar change on use */
+  .gb_Ee.gb_bf.gb_Ve > .gb_ef > input.gb_We, .gb_Ee.gb_bf.gb_Ve, .gb_Ee.gb_bf.gb_Ve > .gb_df.a-nb-Va-d-Gk-M {
+    background: #222 !important;
   }
 
   /* fix white border on use */
@@ -22,7 +22,7 @@
   /*
       top bar
   */
-  .gb_ud, .gb_qd, .gb_td {
+  .gb_ud, .gb_qd, .gb_td, .gb_Bd.gb_7d {
     background: #212121 !important;
     color: #bbb !important;
   }
@@ -33,17 +33,17 @@
   }
 
   /* icons*/
-  .gb_He > svg, .gb_Ie > svg, .a-nb-Va-d-Gk-M > svg, .a-w-d-aa-zd > svg, svg.a-nEbBXb-c, div.a-d-c > svg.a-s-fa-Ha-pa, svg.gb_1d, div.gb_ee > svg.gb_0d, a.gb_b > svg, svg.gb_Zd, svg.gb_3d, .gb_Le > svg, .a-q-Xc-Ab-c > svg > path.a-s-fa-Ha-pa, .gb_Me > svg, .gb_Re > svg, .gb_3e.gb_5e > svg {
+  .gb_He > svg, .gb_Ie > svg, .a-nb-Va-d-Gk-M > svg, .a-w-d-aa-zd > svg, svg.a-nEbBXb-c, div.a-d-c > svg.a-s-fa-Ha-pa, svg.gb_1d, div.gb_ee > svg.gb_0d, a.gb_b > svg, svg.gb_Zd, svg.gb_3d, .gb_Le > svg, .a-q-Xc-Ab-c > svg > path.a-s-fa-Ha-pa, .gb_Me > svg, .gb_Re > svg, .gb_3e.gb_5e > svg, .gb_Ze > svg, .gb_af.gb_cf > svg, .gb_ue.gb_Pc > svg {
     fill: #fff !important;
   }
 
   /* placeholder text*/
-  .gb_Pe::-webkit-input-placeholder {
+  .gb_We::-webkit-input-placeholder {
     color: #989898 !important;
   }
 
   /* for firefox */
-  .gb_Pe::-moz-placeholder {
+  .gb_We::-moz-placeholder {
     color: #989898 !important;
     opacity: 1 !important;
   }
